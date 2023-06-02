@@ -1,0 +1,139 @@
+Core java+spring boot  html+css+angular
+
+
+Full Stack
+
+Frontend  client     Backend server
+
+Language
+============
+Communication between Humans 
+
+Programming Language
+=======================
+POP                            OOP
+c,b,bcpl,cobol                c++,java,python,.net,r,etc
+1)Performance
+2)Security                        1)Platform Independent wora -write once run anywhere
+                                   2)Garbage collection
+								   
+james ghosling 1995  Oak sun microsystems  java oracle corp
+jdk 1.0
+1.8
+11 17 20
+Desktop app
+Media player 
+
+
+
+Distributed app
+gmail,
+
+
+Jse java standard 
+Desktop apps
+
+Jee  java enterprice 
+
+Desktop+distributed
+
+Jme  java mobile
+
+android based
+
+Jdk=java development kit
+Jre=java runtime environment
+Jvm=java virtual machine
+
+
+in java we have 53 keywords and all the keywords in the lowercase
+goto ,const
+
+
+compilation .java/userunderstandable/source windows =.class /machine/byte MacOs  ==javac filename.java
+
+execution  java filename
+
+35-45
+
+Identifiers:A name in  java 
+a-z A-Z 0-9 _ and $
+
+naga_$
+0123nag
+nag123
+nag$_
+$_$_$_
+@valid 
+
+Variable;a name of the memory location
+
+datatype varname=value;
+int age=100;
+
+datatypes
+===============
+premitive                       non premitive      String,array   
+8
+byte 1byte  short  2bytes int 4bytes long 8bytes     
+float 4bytes double 8bytes
+char 2bytes
+boolean  1bit
+
+ex:
+class Naga{
+	public static void main(String args[]){
+		byte b=100;
+		short s=32000;
+		int i=123456789;
+		long l=9876543210l;
+		float f=123.45678f;
+		double d=1234.1234567890;
+		char ch='N';
+		boolean be=true;
+		System.out.println(b);
+		System.out.println(s);
+		System.out.println(i);
+		System.out.println(l);
+		System.out.println(f);
+		System.out.println(d);
+		System.out.println(ch);
+		System.out.println(be);
+		
+		}
+	}
+
+Operators
+===============
+unary
+int a=10;
+a++;++a;a--;--a
+
+arthimetic
++,-,/,*,%
+shift left ,right 
+
+<<  >>
+
+left n*2^a
+
+10<<2
+10*2^2
+
+right
+n/2^a
+assignment
+int a=10;
+a+=10;//a=a+10
+a-=10;//
+
+bitwise and logical 
+
+ternary 
+
+
+
+
+
+
+
