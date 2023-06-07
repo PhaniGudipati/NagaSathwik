@@ -129,7 +129,69 @@ a-=10;//
 
 bitwise and logical 
 
+bitwise AND  & bitwise OR
+A   B
+0   0              
+0   1
+1   0
+1   1=true
+
+
+a=10
+b=20
+c=30
+
+ 16  8 4 2 1
+  1  1 1 1 0
+  0  1 0 1 0  = a
+  0  1 0 1 0
+  
+  
+  1  0 1 0 0  =b
+  0 0 0 0 0 0
+  
+
+a>b && c>a 
+hello
+
+
+
 ternary 
+
+package 
+a folder in java 
+
+for compilation javac -d . filename.java
+for execution   java packagename.classname
+predefined
+java.lang is a default java package
+
+int marks=35
+
+enhanced for loop
+and patterns 
+*****         12345          ABCDE
+****
+***
+**
+*
+
+Eclipse,intellij,vscode ,netbeans
+
+Scanner class 
+java.util
+
+take the input from the user
+employee details
+empName empsal empid
+
+***Variables
+
+datatype Varname=value;
+
+Local Variable  and Global Variable
+
+
 
 
 
