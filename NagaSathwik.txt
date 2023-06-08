@@ -191,6 +191,45 @@ datatype Varname=value;
 
 Local Variable  and Global Variable
 
+Instance  and static
+
+Syntax:if it is static there is a static keyword inthe syntax
+
+Memory:static pro will get memory space only once at the time of class loading into jvm 
+instance pro will get the memory space at the time of every object creation
+
+class:car
+Object:types
+Classname objname =new Classname();
+Access :
+static by using classname/directly/obj 
+instance by usong obj name
+Usage:unique  for instance
+common for static
+
+Commandline Args:
+args which are passed at the time of running
+
+Method:
+method is a group of statements
+                                    void
+AccessModifier   variablename  returntype methodname (args){
+
+
+//block of statements
+
+
+}
+
+ex:public void addition(int a,int b){
+System.oout.println(a+b);
+
+
+
+}
+
+
+
 
 
 
