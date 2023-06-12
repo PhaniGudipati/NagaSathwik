@@ -230,11 +230,153 @@ System.oout.println(a+b);
 
 
 
+package com.core.java.naga;
+
+public class Caluculator {
+	int a=100;
+	public int addition(int a, int b) {
+		System.out.println(a + b);
+		return a + b;
+	}
+
+	public static void subtraction() {
+		int a = 100;
+		int b = 50;
+		System.out.println(a - b);
+
+	}
+
+	public static int multiplication(int a, int b) {
+		System.out.println(a * b);
+		return a * b;
+	}
+
+	public int division() {
+		int a = 10;
+		int b = 2;
+		System.out.println(a / b);
+		return a / b;
+	}
+
+	public static void main(String[] args) {
+		Caluculator obj = new Caluculator();
+		obj.addition(15, 10);
+		Caluculator.subtraction();
+		Caluculator.multiplication(10, 5);
+		obj.division();
+		System.out.println(obj.a);
+
+	}
+
+}
+
+
+
+
+ local         how when where
+ instance     how when where
+ static       how when where
+ 
+ 
+ JVM architecuture
+ 
+ 
+ CLSS 
+ 
+ MEMORYAREA
+ 
+ 
+ EXECUTION ENGINE
+
+OOPS
+=================
+Class :A blueprint of an object logical existence
+
+Object:is an instance of class physical 
+
+
+
+Inheritance:
+
+Abstraction :
+
+Polymorphism
+
+Encapsulation
+
+Inheritance
+=========================
+It is the mechanism of aquring the properties from one class(super/parent) to another class(sub/child)
+
+**Code Reusability
+
+extends:class=class,interface=inerface 
+Implements:class=interface,interface=class
+
+
+class A{
+
+1000 
+
+} 
+
+class B extends A {
+
+5lines
+
+}
+
+Types of Inheritance
+
+Multiple Inheirtance:is not supported in java at class level but it is supported in java at inetrface level
+
+
+Concrete method :Method with implementation/body
+
+
+Abstract Method:method without Implementation/body
+
+
+Class :Combination of only concrete methods 
+
+Abstract Class: Combination of both concrete and Abstract methods
+
+Interface: it is a combination of only abstract methods
+
+Abstraction
+=====================
+Hiding the internals by showcasing their functionality
+Security
+abstract class =0-100and interface 100
+
+
+class A {                   class B{
+
+add(){						sub(){
+x+y;						x-y;
+
+}								}
+
+
+
+}                                 }
+class C extends A,B{
+main(){
+C c=new C();
+c.add();
+c.
 
 
 
 
 
+
+}
+
+
+
+
+}
 
 
 
