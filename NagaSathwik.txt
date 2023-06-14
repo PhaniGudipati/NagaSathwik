@@ -352,7 +352,7 @@ abstract class =0-100and interface 100
 
 class A {                   class B{
 
-add(){						sub(){
+add(){						add(){
 x+y;						x-y;
 
 }								}
@@ -364,19 +364,65 @@ class C extends A,B{
 main(){
 C c=new C();
 c.add();
-c.
 
 
+
+
+
+
+
+}
 
 
 
 
 }
 
+Polymorphism
+Compile/methodoverloading:method name is same but signature is different(no of params,type of params,order of params)
+package com.core.java.naga;
 
+public class MethodOExa {
+	public void add(int a,int b) {
+		System.out.println("add of two integers:" +(a+b));
+	}
+	public void add(int a,int b,int c) {
+		System.out.println("add of three integers:" +(a+b+c));
+	}
 
+	public void add(float a,float b) {
+		System.out.println("add of two floats:" +(a+b));
+	}
+
+	public void add(int a,float b) {
+		System.out.println("add of int and float:" +(a+b));
+	}
+	public void add(float a,int b) {
+		System.out.println("add of float and int:" +(a+b));
+	}
+
+	public static void main(String[] args) {
+		MethodOExa m=new MethodOExa();
+		m.add(10, 20);
+		m.add(10, 20, 30);
+		m.add(20.3f, 30.7f);
+		m.add(20, 20.30f);
+		m.add(30.9f, 20);
+	}
 
 }
+
+Runtime/Methodoverriding:method name same but implementation is different
+
+
+Constructor:A special member function which is called to instantiate the objects
+
+classname objname=new Constructor();
+
+no args / parameterised constructor
+
+
+
 
 
 
