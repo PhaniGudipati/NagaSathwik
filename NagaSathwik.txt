@@ -422,6 +422,65 @@ classname objname=new Constructor();
 no args / parameterised constructor
 
 
+final:before the variable,method,class
+
+
+this:this keyword is used to represent current class properties
+
+
+super:this keyword is used to represent parent class properties
+
+package com.core.java.naga;
+class Parentt{
+	int a=123;
+	Parentt(){
+		super();
+		System.out.println("Parent class Default constrictor");
+		
+	}
+	public void m1() {
+		System.out.println("am from parent class m1 method");
+	}
+}
+
+public class ThisSuperExa extends Parentt {
+	int a=234;
+ ThisSuperExa() {
+		System.out.println(this.a);
+		System.out.println(super.a);
+		this.m1();
+		super.m1();
+	}
+ ThisSuperExa(String name){
+	 
+	 this();
+	 System.out.println("param const" + name);
+ }
+ public void m1() {
+	 System.out.println("am from child class  ");
+}
+
+	public static void main(String[] args) {
+		ThisSuperExa obj=new ThisSuperExa("Phani");
+		System.out.println(obj.a);
+	
+		
+
+	}
+
+}
+
+AccessModifiers:
+public 
+private
+protected
+default
+
+
+Encapsulation:binding or combining data members with there functions together
+
+getters setters
+
 
 
 
