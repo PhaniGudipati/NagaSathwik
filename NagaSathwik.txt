@@ -481,7 +481,75 @@ Encapsulation:binding or combining data members with there functions together
 
 getters setters
 
+Exception Handling
+==================
+
+class A{
+
+1
+2 error//abnormal and System defined error msgss
 
 
 
+1000
+}
+
+normal termination and user friendly error msgs
+
+
+int a=100;
+ARRAY
+==============
+array is fixed in size and a collection of homogenous elements which are indexed
+int a[]=new int[5] 0-4
+
+100 200 300 400 500
+n,n-1
+int a[]={100,200,300,400}
+
+int a[][]={{10,20,30},{40,50,60}}
+
+String 
+=============
+Collection of Characters
+String name=new String("Phani");
+String name="Phani";
+String is Immutable
+StringBuffer most of the methods are Synchronized Threadsafety,poor Performance,StringBuilder non synchronized Better Performnace,no thread safety
+thread 
+
+
+class A{
+public void synchronized add(){
+
+1
+2
+3
+4
+
+100
+}
+}
+
+
+throw,throws
+
+age >18
+you are elgible to vote
+
+your are not elgible to vote
+
+1)make your class as child to the Thorwable,Exception,RunTimeException
+15mins
+2)create a parameterised constructor
+
+throws is a key word which used along with the method declaration
+
+File io
+input(write) output(Read)
+File
+BufferWriter
+Printwriter
+BufferReader
+PrintReader
 
