@@ -548,8 +548,34 @@ throws is a key word which used along with the method declaration
 File io
 input(write) output(Read)
 File
-BufferWriter
+BufferedWriter
 Printwriter
+FileWriter
 BufferReader
-PrintReader
+FileReader
 
+Serialization
+is the process of converting java code into byte code
+
+
+Deserialization
+
+
+
+Collection Framework
+====================================
+Framework=ReadyMade 
+time will be reduced
+
+Array:collection of homogenous data,fixed in size,no utility methods
+
+
+Collection:homogenous/heterogeneous ,it is growable in nature,utility methods are there
+It is an child interface of Collection Interface
+Duplicates are allowed
+Insertion order preserved 
+
+compareTo java.lang.Comparable
+compare java.util.Comparator
+
+Key Value=entry
