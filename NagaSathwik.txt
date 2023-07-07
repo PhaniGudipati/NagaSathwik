@@ -579,3 +579,52 @@ compareTo java.lang.Comparable
 compare java.util.Comparator
 
 Key Value=entry
+
+class A {
+100
+
+}
+
+
+MultiTasking
+
+
+
+Process Based 
+Multiple  Threads are exectuing simulatenously where each thread has separate independent process
+ex:Laptop
+
+
+
+Thread Based 
+Multiple  Threads are exectuing simulatenously where each thread is realted to the same process
+ex:Notepad
+
+implements Runnable =Sam=Functional Interface=run()
+extends Thread class
+https://www.javamadesoeasy.com/2015/03/thread-states-thread-life-cycle-in-java.html
+
+T1 =7  yield
+
+T2=7
+
+
+T3=9
+
+java.lang.Object
+
+Java 8 features
+
+Lambda expression
+
+Fi
+
+predefinded fi
+
+default and static 
+
+stream api 
+
+date and time
+
+optional class 
